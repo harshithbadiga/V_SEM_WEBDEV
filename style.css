@@ -170,7 +170,7 @@ body {
   }
   
   footer {
-    background: #00106a;
+
     margin: 32px 0 0px;
     padding: 32px 0;
   }
@@ -180,8 +180,9 @@ body {
     list-style: none;
   }
   footer ul li {
-    color: #ffffff;
+    color: black;
     margin-bottom: 16px;
+    font-size: 2rem;
   }
 
   .navlinks{

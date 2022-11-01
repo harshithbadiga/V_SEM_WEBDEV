@@ -1,8 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
-
 * {
-
+    font-family: Quicksand;
     font-size: 16px;
     color: black;
 }
@@ -11,8 +8,7 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: #dfe9ff;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    background: linear-gradient(to bottom right, white, #4b71ff);
 }
 .form {
     background-color: white;
@@ -105,7 +101,7 @@ h1 {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-    color: black;
+    color: #289df6;
     padding-top: 15px;
     display: block;
 }
@@ -115,13 +111,13 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-size: 45px;
+    font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding: 15px;
 }
 h3 b {
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 300;
     color: #289df6;
 }
@@ -142,26 +138,3 @@ h3 b {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 5rem;
-
-
-    color: white;
-    text-align: center;
-  }
-.footer_str{
-    color: black;
-    font-size: 2rem;
-}
-
-.footCal a:hover, a:visited, a:link, a:active{
-    text-decoration: none;
-    color: blue;
-    font-size: 2rem;
-    
-  }
