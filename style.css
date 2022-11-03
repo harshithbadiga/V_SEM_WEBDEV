@@ -230,4 +230,8 @@ body {
   }
 
 
- 
+  @media (max-width:800px)  {
+    .banner-image1{
+      visibility: none;
+    }
+ }
