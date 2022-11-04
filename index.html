@@ -8,20 +8,24 @@
     <title>Calorify</title>
 </head>
 <body>
-  <!--
-    <nav>
-        <div class="logo">
-          <div class="arrow-down"></div>
-        </div>
-        <ul>
-          <li> <a href="#bmi">hi</a> </li>
-          <li><a class="navlinks" href="index.html">Maintaince Calorie Calculator</a></li>
-          <li><a class="navlinks" href="index.html">Calorie Detector</a></li>
 
+<nav>
+	<input id="nav-toggle" type="checkbox">
+	<ul class="links">
+        <li><img src="calorify.jpg" class="img"></li> 
+		<li><a href="./index.html">Home</a></li>
+		<li><a href=".">Team</a></li>
+		<li><a href="Motive.html">Motive</a></li>
+    <li><a href="Motive.html" id="signout">Sign-Out</a></li>
 
-        </ul>
-      </nav>
-    -->
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
+
       <section class="banner">
         <div class="container">
           <div class="banner-text">
@@ -102,6 +106,8 @@
         </div>
         </div>
       </footer>
-      <script src=""></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+     <script src="app2.js"></script>
 </body>
 </html>
