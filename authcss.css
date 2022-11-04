@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#dfe9ff ;
+    font-family: 'Be Vietnam', sans-serif;
+    overflow: hidden;
+
+}
+
+.logo{
+ padding-top: 0.5rem;
+ padding-left: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.hambuger-menu{
+    display: none;
+}
+
+
+.two{
+    width: 50%;
+}
+
+.get_started{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.interview{
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+.login-box{
+    width: 450px;
+    text-align: center;
+    background-color:#112031 ;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+
+}
+
+  form .text_field{
+    position: relative;
+    border-bottom: 2px solid #D4ECDD;
+    margin: 30px 0;
+}
+
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+
+.text_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #D4ECDD;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.text_field span::before{
+    content: "";
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:#1CC0A9;
+    transition: .5s;
+}
+
+.text_field input:focus ~ label,
+.text_field input:valid ~ label{
+    top:-5px;
+    color:#1CC0A9;
+}
+
+.text_field input:focus ~ span::before,
+.text_field input:valid ~ span::before{
+    width: 100%;
+    color:#1CC0A9;
+}
+
+.pass{
+    margin: 1.2rem;
+    color:#1CC0A9;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 3rem;
+    border: 1px solid;
+    background:#D4ECDD ;
+    border-radius: 1.5rem;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+
+}
+
+input[type="submit"]:hover{
+    border-color: #1CC0A9 ;
+    transition: .5s;
+
+}
+
+.signup_link{
+    margin: 2.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #D4ECDD;
+}
+
+.signup_link a{
+    color: #1CC0A9;
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
+}
+
+.login-img{
+    width: 700px;
+}
+
+
+
+@media all and (max-width:1200px) {
+    .hambuger-menu{
+        display: block;
+        font-size: 2.3rem;
+        padding: 1.5rem;
+    }
+    .one{
+        display: none;
+    }
+    .login-box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 65%;
+    }
+    .two{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width:546px) {
+    .login-box{
+        width: 85%;
+    }
+}
