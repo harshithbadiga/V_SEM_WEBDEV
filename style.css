@@ -169,8 +169,8 @@ body {
   }
   .banner .banner-text p {
     color: #00106a;
-    font-size: 1.05rem;
-    line-height: 1.75;
+    font-size: 1.rem;
+    line-height: 1.3;
   }
   .banner button {
     border: 0;
@@ -295,8 +295,20 @@ body {
   }
 
 
-  @media (max-width:800px)  {
-    .banner-image1{
-      visibility: none;
-    }
+  @media (max-width:860px)  {
+.hidden{
+  visibility: hidden;
+   
+}
+.banner-image1{
+  visibility: hidden;
+}
+.banner{
+  visibility: hidden;
+}
+
+.small{
+  visibility: visible;
+  
+}
  }

@@ -8,7 +8,7 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right, white, #4b71ff);
+    background: #dfe9ff;
 }
 .form {
     background-color: white;
@@ -138,3 +138,26 @@ h3 b {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 5rem;
+
+
+    color: white;
+    text-align: center;
+  }
+.footer_str{
+    color: black;
+    font-size: 2rem;
+}
+
+.footCal a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: blue;
+    font-size: 2rem;
+    
+  }
